@@ -1,0 +1,689 @@
+.menuNiv1{
+margin-bottom: 0px;
+margin-top: 5px;
+}
+.menuNiv2{
+margin-bottom: 0px;
+margin-top: 0px;
+padding-left: 21px;
+text-indent: -10px;
+}
+.menuNiv3{
+margin-bottom: 0px;
+margin-top: 0px;
+padding-left: 32px;
+text-indent: -9px;
+}
+
+
+.subtitle a:visited {
+	color: #006699;
+}
+li.right {
+	text-align: right;
+}
+.box001 .abo {
+    background-image: url(img/box_abonnement.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 65px;
+}
+.box001 .nextevent {
+	background-image: url(img/box_nextEvents.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 65px;
+}
+
+/*
+styles repris de unifr.001.css et common.001.css et adaptes
+*/
+h1.formerCollab{
+	color: #990000;
+}
+#navigBarre a{
+	display:block;
+	font-weight: bold;
+	padding-right: 7px;
+	padding-left: 7px;
+	line-height: 21px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #006699;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+}
+.greyCadre {
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: 120%;
+}
+#searchbox form {
+	margin: 0px;
+}
+#searchbox h2 {
+	margin: 0px;
+	font-size: 11px;
+}
+#searchbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	padding: 3px;
+	border: 0px solid #CCCCCC;
+	margin-right: -10px;
+	margin-bottom: 10px;
+	width: 140px;
+	float: right;
+}
+div#wrapper{
+	float:left;
+	width: 100%;
+	}
+div#content{
+	margin-left: 200px;
+	margin-right: 220px;
+}
+.box001_content a:link {
+	color: #006699;
+}
+.box001_content a:visited {
+	color: #006699;
+}
+.box001 h2 {
+	color: black;
+}
+.box001 {
+	width: 95%;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+div#column {
+	background-color: #E4EDF2;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	vertical-align: top;
+	float:left;
+	width:189px;
+	margin-left:-100%;
+}
+.box003 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-align: left;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	margin-top: 20px;
+	margin-bottom: 7px;
+	float: left;
+	width: 180px;
+	margin-left: -200px;
+}
+#menu .title{
+	background-color: #E4EDF2;
+	color: #000000;
+}
+/* width minimal pour "Realisations/supports de presentation" bold : 190px */
+#identity .bandeau {
+	background-image: url(../../IMG/png/nte.unifr.png);
+}
+#identity .address {
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	width: 180px;
+}
+#identity .address a{
+	color: #FFFFFF;
+}
+
+#navigBarre a.top-menu-current{
+	background-color: #E4EDF2;
+	color: #006699;
+}
+/*
+style repris de edutech pour les centres elearning
+*/
+#navigBarre ul{
+	letter-spacing: 0.0em;
+}
+
+.institution {
+	font-size : 100%;
+}
+
+.previsu fieldset {
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+}
+.forml {
+	width: 80% ;
+	background-color: #eeeeee;
+	font-size : 90%;
+}
+.formulaire_forum textarea {
+	width: 100% ;
+	background-color: #eeeeee;
+	font-size : 90%;
+}
+.formulaire_forum .form2{
+	background-color: #eeeeee;
+	font-size : 90%;
+	width: 40% ;
+}
+.formulaire_forum label {
+	font-size: 85%;
+	width: 59%;
+	float: left;	/*** Tres important, ne pas suprimer ! ***/
+	text-align: right;
+	margin-right: 3px;
+}
+.formulaire_forum fieldset {
+	border: 1px solid #CCCCCC;
+}
+.formulaire_forum fieldset legend {
+	font-variant: small-caps;
+	font-weight: bold;
+}
+div.plan {
+	margin-top: -20px;
+}
+li.plan {
+	margin-left: -15px;
+}
+.legende {
+	font-size : 70%;
+}
+.lienHome {
+	float: left;
+}
+.spip {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 90%;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a:link{
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	/*color: #A8BCD0;*/
+	color:#BBCCFF;
+}
+a:active {
+	text-decoration: underline;
+	color: #006699;
+}
+a:hover {
+	text-decoration: underline;
+	color: #006699;
+	cursor:pointer;
+}
+/* nte jlt menu link display the hand onMouseOver()*/
+.nte_menuImg{
+	cursor:pointer;
+}
+.nte_menuTxt{
+	cursor:pointer;
+}
+/*pour eviter un bug qui faisait crasher IE lorsque le menu contenait un dernier item avec moins de 9 car !?*/
+* html #navigBarre a { height: auto; float: none; }
+/*----------------------fin de la reprise --------------------------------*/
+
+div#container{
+	width: 100%;
+}
+.spip_logos{
+	border: 0px;
+}
+.moreInformation {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+}
+.details {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size: 90%;
+}
+#blogs {
+	margin-top: 19px;
+}
+.boxmiddle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: black;
+	text-align: left;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+.boxmiddle .title {
+	background-color: #E4EDF2;
+	text-transform: uppercase;
+	color: #333333;
+	padding: 2px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.path {
+	background: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	height: 25px;
+	font-size: 70%;
+	margin-top: 5px;
+	margin-left: -5px;
+}
+.illustrationBox {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.autres{
+	text-align: right;
+	margin-top: 5px;
+}
+table.menu, table.titre, td.currentArticle, td.menu-others, td.titre-logo, td.titre-logo-unifr, td.titre-nte, td.titre-menu2, separator {
+	background : #E4EDF2;
+}
+table.principal, table.sous-menu {
+	border: 1px solid #00248F;
+}
+table.menu {
+	border-bottom : 1px solid #006699;
+}
+td.top-menu-others {
+	border-left : 1px solid #006699;
+	border-right : 1px solid #006699;
+	border-top : 1px solid #006699;
+}
+td.formulaire-recherche, td.top-menu-others, a.lien-menu2, a.lien-menu2:visited, a.lien-menu-current, a.lien-menu-current:visited, a.lien-menu-current:hover, a.lien-menu-others, a.lien-menu-others:visited, a.lien-menu-others:hover, a.lien-path, a.lien-path:visited, a.lien-path:hover, a.lien-titre-nte, a.lien-titre-nte:visited, a.lien-titre-nte:hover, a.lien-top-menu-others, a.lien-top-menu-others:visited, a.plan, formrecherche.footer:visited {
+	color : #006699;
+}
+td.top-bar-current, td.top-menu-current {
+	background : #006699;
+}
+td.top-menu-others {
+	background : #809FFF;
+}
+/*
+*/
+.spip_encadrer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	border: 0px #666666 solid;
+	width : 75%;
+	padding: 0px;
+	margin-left : 0px;
+}
+
+.spip_encadrer2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #dcdcdc;
+	padding: 10px;
+	margin-left : 0px;
+}
+
+.forums {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border : 1px dashed Black;
+	border-top : 1px solid;
+	border-bottom : 1px solid;
+	margin-left : 20px;
+	padding-left: 10px;
+	width : 78%;
+}
+
+.firstCap {
+	float:none;
+	width: .9em;
+	height: .9em;
+	float: left;
+	text-align: left;
+	font-size: 240%;
+	color:#A52A2A;
+	line-height: normal;
+	font-weight: bold;
+	background-position: left;
+}
+
+ul.elements {
+	margin: 0px;
+	padding-left: 16px;
+}
+ul.elements li {
+	list-style-image: url(puce.html);
+}
+body {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	background-color : White;
+	margin : 10px;
+	color:black;
+	background-image:url(archive.png);
+}
+table.menu {
+	width : 100%;
+	font-size: 90%;
+}
+table.sous-menu {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+table.spip {
+	margin: 3px;
+}
+table.spip tr.row_even {
+	background-color: #F0F0F0;
+}
+table.spip tr.row_first {
+	background-color: #FFDCB5;
+}
+table.spip tr.row_odd {
+	background-color: #C0C0C0;
+}
+table.spip td {
+	padding: 0px;
+	text-align: left;
+	vertical-align: middle;
+}
+table.tableauPlan {
+	width : 100%;
+	font-size : 90%;
+}
+td.formulaire-recherche {
+	font-weight : bold;
+	text-decoration : none;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : top;
+	font-size : 80%;
+	width : 110px;
+	text-align : center;
+	background : #DCDCDC;
+}
+td.form-recherche {
+	text-align : right;
+	vertical-align : middle;
+	width : 17%;
+}
+td.menu-others {
+	vertical-align : middle;
+	white-space : nowrap;
+	text-align : left;
+}
+td.search-results {
+	font-size : 70%;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	background-color : White;
+}
+td.tableauPlan {
+	width : 50%;
+	margin-bottom : 10px;
+	vertical-align : top;
+}
+td.titre-logo {
+	text-align : left;
+}
+td.titre-logo-unifr {
+	text-align : right;
+}
+td.titre-nte {
+	text-align : center;
+	vertical-align : middle;
+}
+td.titre-menu2 {
+	text-align : right;
+	width : 70px;
+}
+td.top-bar-current {
+	color : white;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	text-align : center;
+	font-size : 80%;
+	text-align : center;
+	padding : 5px;
+}
+td.top-menu-current {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : middle;
+	text-align : center;
+	color : white;
+	font-weight : bold;
+}
+td.top-menu-others {
+	font-weight : bold;
+	text-decoration : none;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : middle;
+	text-align : center;
+}
+td.newsHome {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 85%;
+	background-color : #ffffcc;
+	padding-bottom : 8px;
+	padding-left : 4px;
+	border-bottom : 2px solid #999999;
+	border-right : 2px solid #999999;
+	border-left : 1px solid #CCCCCC;
+	border-top : 1px solid #CCCCCC;
+}
+td.newsHomeActualites {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 85%;
+	background-color : #ffff99;
+	padding-bottom : 8px;
+	padding-left : 4px;
+	border-bottom : 2px solid #999999;
+	border-right : 2px solid #999999;
+	border-left : 1px solid #CCCCCC;
+	border-top : 1px solid #CCCCCC;
+}
+td.exemplesHome {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : top;
+	text-align : center;
+	background-color : #EEEEEE;
+	font-size : 80%;
+	width : 120px;
+}
+td.exemplesHomeNews {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : top;
+	text-align : center;
+	background-color : #EEEEEE;
+	font-size : 75%;
+}
+table.exemplesHome {
+	border : 1px solid #CCCCCC;
+	margin : 5px;
+	border-top : 1px solid #CCCCCC;
+	border-bottom : 1px solid #CCCCCC;
+}
+td.exemplesHomeTexte {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : top;
+	text-align : left;
+	font-size : 75%;
+}
+td.exemplesHomeTexteSondage {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : top;
+	text-align : left;
+	font-size : 80%;
+	color : Black;
+}
+a.spiptitre {
+	font-size : 100%;
+	text-decoration : none;
+}
+a.spiptitre:visited {
+	font-size : 100%;
+	color : #A52A2A;
+	text-decoration : none;
+}
+a.spiptitre:hover {
+	font-size : 100%;
+	text-decoration : underline;
+	color : #A52A2A;
+}
+a.exemple {
+	font-size: 80%;
+}
+a.exemple:visited {
+}
+a.exemple:hover {
+	text-decoration : underline;
+}
+a.lien-menu2 {
+	font-size : 70%;
+}
+a.lien-menu2:visited {
+	font-size : 70%;
+}
+a.lien-menu2:hover {
+ 	color : #FFFFFF;
+	text-decoration: none;
+}
+a.lien-menu-current {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+}
+a.lien-menu-current:visited {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+}
+a.lien-menu-current:hover {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+}
+a.lien-menu-others {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+a.lien-menu-others:visited {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+a.lien-menu-others:hover {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+a.lien-path {
+	text-decoration : none;
+}
+a.lien-path:visited {
+	text-decoration: none;
+}
+a.lien-path:hover {
+	text-decoration: underline;
+}
+a.lien-titre-nte {
+	text-decoration : none;
+	font-size : 120%;
+	font-weight : bold;
+}
+a.lien-titre-nte:visited {
+	text-decoration : none;
+}
+a.lien-titre-nte:hover {
+	text-decoration : none;
+}
+a.lien-top-menu-current {
+	color: #FFFFFF;
+}
+a.lien-top-menu-current:visited {
+	color: #FFFFFF;
+}
+a.lien-top-menu-current:hover {
+	text-decoration: none;
+}
+a.lien-top-menu-others {
+	font-size : 70%;
+}
+a.lien-top-menu-others:hover {
+	text-decoration: underline;
+}
+a.newsHome {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 90%;
+}
+a.plan {
+	text-decoration : none;
+	font-size : 90%;
+}
+h2.titre {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 130%;
+	text-align : center;
+	margin-top : 10px;
+}
+h3.titre {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 110%;
+}
+h3 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+h4 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-style : italic;
+}
+div.dateModif {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	text-align : left;
+	font-size : 80%;
+}
+div.descriptif {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 80%;
+}
+.formrecherche {
+	background: #FFFFFF;
+	width : 85px;
+}
+.separator {
+	font-size : 2px;
+	width : 5px;
+}
+.spipmeta {
+	font-size : 80%;
+	color: Gray;
+}
+.tableauEquipe {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 90%;
+}
+.tableauRecherche {
+	width : 75%;
+	padding : 5% 5% 5% 5%;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 90%;
+	width : 100%
+}
+a.spip_in, a.spip_out {
+	color: #006699;
+}
+a.spip_in:visited, a.spip_out:visited {
+	color: #A8BCD0;
+}
+a.spip_in:hover, a.spip_out:hover {
+	color: #006699;
+	text-decoration: underline;
+}
+.sommaire2 {
+	margin-left: 13px;
+	font-size : 90%;
+}

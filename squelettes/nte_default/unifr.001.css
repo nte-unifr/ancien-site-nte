@@ -1,0 +1,115 @@
+/*------------------- CSS UNIFR.CH -------------------*/
+/*-- CSS GENERIC www.unifr.ch/*                   	--*/
+/*-- LAST UPDATE: 22.08.2006                        --*/
+/*----------------------------------------------------*/
+
+@import url(common.001.css);
+
+
+/*----------------------------------------------------*/
+/*-- STYLES DEPENDANT DE L'UO/DU SITE               --*/
+/*----------------------------------------------------*/
+
+/*-- Bandeau et texte pour l'identité ----------------*/
+#identity .bandeau {
+	background-image: url(squelettes/nte_default/unifr.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	margin: 0px;
+	padding: 0px; }
+#identity .address {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #006699;
+	vertical-align: bottom;
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 12px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF; }
+
+
+/*-- Barre de navigation -----------------------------*/
+#navigBarre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #006699;
+	background-position: center;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px; }
+#navigBarre a{
+	display:block;
+	font-weight: bold;
+	padding-right: 7px;
+	padding-left: 7px;
+	line-height: 21px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #006699;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF; }
+#navigBarre a:hover{ background-color: #E4EDF2; color: #006699; } 
+
+
+/*-- COLOR, couleur du bandeau -----------------------*/
+ ul.arrowColor li {
+	padding-left: 9px;
+	background-image: url(squelettes/nte_default/arrowColor.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0.1em;
+	padding-bottom: 2px; }
+ul.squareColor li {
+	padding-left: 9px;
+	background-image: url(squelettes/nte_default/squareColor.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0.1em;
+	padding-bottom: 2px;  }
+
+
+/* Titres --------------------------------------------*/
+h1 {
+	font-family: "Trebuchet MS",Trebuchet, Tahoma, Verdana, sans-serif;
+	font-size: 18px;
+	color: #006699;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	margin: 0px; }
+h2 {
+	font-family: "Trebuchet MS",Trebuchet, Tahoma, Verdana, sans-serif;
+	font-size: 14px;
+	color: #006699;
+	font-weight: bold; }
+h3 {
+	font-family: "Trebuchet MS",Trebuchet, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	color: #006699;
+	font-weight: bold;
+	margin: 0px; }
+h4 {
+	font-family: "Trebuchet MS",Trebuchet, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal; }
+	
+.box003 a:link, .box003 a:visited { text-decoration: none; }
+.box003 a:hover, .box003 a:active { text-decoration: underline; }

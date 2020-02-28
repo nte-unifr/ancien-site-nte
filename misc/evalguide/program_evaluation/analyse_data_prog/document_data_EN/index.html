@@ -1,0 +1,551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from nte.unifr.ch/misc/evalguide/program_evaluation/analyse_data_prog/document_data_EN/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2016 23:22:22 GMT -->
+<head>
+    
+    <!-- NTE Copyright ethz.ch and unifr.ch -->
+    
+    <title>
+      Evalguide - 4. Daten auswerten
+    </title><meta name="robots" content="noindex">
+    
+      
+    
+    
+  <!-- NTE adaptation head1 (niveau3 ../../../)-->
+    
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />   
+    <!-- NTE evalguide href="/program_evaluation/analyse_data_prog/document_data_EN" />-->
+    <!-- style sheet -->
+    
+        <link rel="stylesheet"
+              href="../../../css/colors_c010.css"
+              type="text/css" /> 
+        <link rel="stylesheet"
+              href="../../../css/ns4.css"
+              type="text/css" />      
+        <style type="text/css">
+            <!-- 
+            @import url("../../../css/modernbrowsers.css");
+            @import url("../../../css/colors_c010.css");
+            @import url("../../../css/silva.css");
+            @import url("../../../css/customstyles.css");
+            -->
+            </style>      
+        <link rel="stylesheet" media="print"
+              href="../../../css/print.css"
+              type="text/css" />      
+        <style type="text/css"> 
+               .logo-bg { background-image: url(../../../images/head_bg_logo_home_c010.jpg); background-repeat: no-repeat; } 
+               .identity-image { background-image: url(../../../images/head_bg_home_c010.jpg); background-repeat: repeat; }
+               .mainnav, .screenhead, .color5-back, .color4-back, .color3-back, .color2-back, .color1-back,  .servicenav, .transparent {background-image: url(../../../icons_site/transparent.gif); }</style>
+        
+          <style type="text/css">div.navblock, .margins div.contentblock-1col { margin-bottom:0px; }</style>
+        
+        
+        <!-- extra stylesheet for ie7 -->
+        <!--[if lte IE 6]>
+        <link rel='stylesheet' href='../../../css/ie6.css' type='text/css' />
+        <![endif]-->
+        <!--[if IE 7]>
+        <link rel='stylesheet' href='../../../css/ie7.css' type='text/css' />
+        <![endif]-->
+        
+    
+   <!-- NTE adaptation head2 EN (niveau3 ../../../)-->
+    
+  <style>body {background-color : White;	color:black;	background-image:url(/ancien-site-nte/squelettes/nte_default/archive.png);}</style></HEAD>
+  <body bgcolor="#FFFFFF" onload="setup()">
+  <div class="margins" id="bodymargins" style="width:auto;">
+    <a id="top" name="top"></a>
+    <!-- START header table -->
+  <!-- NTE no printhead niveau3 -->
+    <table id="screenhead" width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+     <!-- NTE no logo FR EN --> 
+            
+                
+                
+        <!-- START picture and navigation -->
+        <td width="100%" valign="top" class="identity-image">
+          <table width="100%" border="0" cellpadding="0"
+                 cellspacing="0">
+          <!-- head picture and language -->
+            <tr>
+              <td colspan="2" width="100%" height="54" valign="bottom">
+                <div class="sitename" id="sitename"><a href="../../../index_EN/index.html"><img alt="Herzlich Willkommen" title="Herzlich Willkommen" src="../../../images/head_sitename_c010.jpg" height="54" width="340" border="0" name="sitename" /></a></div>
+              </td>
+              <td class="transparent">&nbsp;</td>
+            </tr>
+            <!-- START navigation 1. row and service-navigation -->
+            <tr>
+              <td width="100%" height="17" valign="middle"
+                  class="color4-back">
+                
+                  <div class="mainnav">
+   <a class="mainnav-off" href="../../../news/index_EN/index.html">News</a> | <a class="mainnav-off" href="../../../about_guide/index_EN/index.html">About this guide</a> | <a class="mainnav-off" href="../../../people/index_EN/index.html">People</a>
+</div>
+                
+              </td>
+              <td rowspan="3" width="220" height="100%" class="color1-back">
+                <!-- START service-navigation and search -->
+                <table width="220" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="18" valign="middle">
+                      
+                      
+                        <div class="servicenav">
+						  <!-- NTE no Contact FR EN -->
+						  <a class="servicenav-off" href="../../../sitemap/index/index.html">Sitemap</a>
+						  <!-- NTE no Help FR EN -->
+                        </div>
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <!-- NTE no SucheForm EN debut-->
+              <td valign="middle" width="18" align="right" class="searchtd">
+                <!-- NTE no SucheForm fin niveau3-->  
+              </td>
+            </tr>
+          </table>
+        </form>
+    
+                      <!-- END search form -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- END service-navigation and search -->
+              </td>
+              <td width="50" height="100%" rowspan="3" class="transparent"><img
+    alt=""
+    src="../../../icons_site/transparent.gif"
+    width="50" height="10" /></td>
+            </tr>
+            <!-- END navigation 1. row and service-navigation -->
+            <!-- START navigation 2. row -->
+            <tr>
+              <td width="100%" height="17" valign="middle"
+                  class="color3-back">
+                
+                  <div class="mainnav">
+   <a class="mainnav-off" href="../../../eval_general/index_EN/index.html">Evaluation: General</a> | <a class="mainnav-off" href="../../../project_evaluation/index_EN/index.html">Project evaluation</a> | <a class="mainnav-on" href="../../index_EN/index.html">Program evaluation</a>
+</div>
+                
+              </td>
+            </tr>
+            <!-- END navigation 2. row -->
+            <!-- START navigation 3. row -->
+            <tr>
+              <td width="100%" height="17" valign="middle"
+                  class="color2-back">
+                
+                  <div class="mainnav">
+   <!-- NTE no PersoenlicheBeratung EN--> <a class="mainnav-off" href="../../../further_information/index_EN/index.html">Further Information</a> | <a class="mainnav-off" href="../../../downloads/index/index.html">Downloads</a>
+</div>
+                
+              </td>
+            </tr>
+            <!-- END navigation 3. row -->
+          </table>
+          <!-- END picture and navigation -->
+        </td>
+      </tr>
+    </table>
+    <!-- END header table -->
+    <!-- ############################################################################ -->
+   
+    <!-- START content -->
+    <!-- START path -->
+    
+
+    
+    
+      
+        
+<!-- START content divs -->
+<!-- START path -->
+<div id="path-service">
+  <!-- START servicenav2 -->
+  
+  <!-- NTE no mail print pdf-->
+  <div class="pathline">
+    <!-- NTE no PathbeginETHZ FR EN-->
+	<!--
+    <span metal:use-macro="python:path(helpers.get_content_path(here, 'siteroot_path'))">
+      Siteroot Path
+    </span>
+	-->
+    
+   <a class="path" href="../../../index_EN/index.html">Evalguide</a>&nbsp;- <a class="path" href="../../index_EN/index.html">Program evaluation</a>&nbsp;- <a class="path" href="../index_EN/index.html">4. Data analysis</a>&nbsp;- <a class="path" href="index.html">Data recording</a>&nbsp;
+  
+
+
+  </div>
+  <div style="clear:both;"></div>
+  <!-- END servicenav2 -->
+  
+</div>
+<!-- END Path -->
+<!-- START content area -->
+<!-- no nav, textblock full, no 3rd col -->
+
+<!-- nav, textblock full, no 3rd col -->
+
+<!-- nav, textblock full, 3rd col -->
+
+  
+  
+
+<!-- START subnavigation 1. coloumn -->
+
+  <div class="navblock">
+    <div class="subnav">
+        
+  <div class="subnav-lev1"><a class="subnav-off" href="../../index_EN/index.html">Program evaluation</a></div>
+  
+
+
+        
+  <div class="subnav-lev2"><a title="Introduction to program evaluation" class="subnav-off"  href="../../introduction_program/index_EN/index.html">Introduction</a></div>
+<div class="subnav-lev2"><a title="1. Evaluation planning" class="subnav-off"  href="../../evaluation_planning/index_EN/index.html">1. Evaluation planning</a></div>
+<div class="subnav-lev2"><a title="2. Tool selection" class="subnav-off"  href="../../eval_instr/index_EN/index.html">2. Tool selection</a></div>
+<div class="subnav-lev2"><a title="3. Data collection" class="subnav-off"  href="../../collect_data_prog/index_EN/index.html">3. Data collection</a></div>
+<div class="subnav-lev2"><a title="4. Data analysis" class="subnav-off"  href="../index_EN/index.html">4. Data analysis</a></div>
+<div class="subnav-lev3"><a title="Data recording" class="subnav-on"  href="index.html">Data recording</a></div>
+<div class="subnav-lev3"><a title="Data analysis" class="subnav-off"  href="../analyse_data/index_EN/index.html">Data analysis</a></div>
+<div class="subnav-lev3"><a title="Data interpretation" class="subnav-off"  href="../interpret_data_EN/index.html">Data interpretation</a></div>
+<div class="subnav-lev2"><a title="5. Reporting results" class="subnav-off"  href="../../eval_report_progr/index_EN/index.html">5. Reporting results</a></div>
+
+  
+
+
+    </div>
+  </div>
+
+<div class="clearright"></div>
+<!-- END subnavigation 1. coloumn -->
+<!-- START content 2./3. coloumn -->
+<div class="contentblock-3col" style="width:auto;"
+     id="contentblock-3col">
+  <div id="languages">
+    <span class="text-lang"><a href="../document_data/index.html" class="languagelink">Deutsch</a></span>
+<span class="text-lang"><a href="../document_data_FR/index.html" class="languagelink">Français</a></span>
+<span class="text-lang lang-active">English</span>
+
+  </div>
+  <!-- START main heading -->
+  
+  <h2>Data recording</h2>
+  
+
+  <!-- END main heading -->
+  <!-- START text box floating right -->
+  <!-- show column depending on layout switch -->
+  
+    
+          
+            
+  
+
+          
+    
+  
+  <!--    END text box -->
+  <!-- START section main content -->
+      
+  
+
+<p class="p">If data from the evaluation of individual projects is used for program evaluation, it should be recorded in an appropriate form which has been pre-defined by the project evaluators. For the program evaluation, either raw data from the projects (original data sheet, see below) or descriptive statistics (see Page on Data analysis - Descriptive statistics) can be used. <br /></p>
+
+
+                          
+
+<p class="p"><strong><br />Recording of questionnaire data</strong></p>
+
+
+                          
+
+<p class="p">The explanations below refer to questionnaires with closed questions (i.e. with predefined response options). In order to analyse such data with a statistics program such as SPSS or Excel, you should first create a data sheet (cf. <a href="../example_data_sheet.pdf" target="_self"><u>Example
+data sheet</u></a>, pdf, 36kB). This is arranged in columns and rows:</p>
+
+
+                          
+<div class="tablemargin">
+<table class="silvatable plain" width="100%" cellspacing="0" cellpadding="3">
+<col width="6%" class="align-right" />
+<col width="93%" class="align-left" />
+<tbody>
+<tr class="odd">
+<td class="align-right">
+  =&gt;
+</td>
+<td class="align-left">
+  Each question in the questionnaire goes into a column (ideally in the same order as questionnaire); the first column should contain an identification number or something similar for each participant).
+</td>
+</tr>
+<tr class="even">
+<td class="align-right">
+  =&gt;
+</td>
+<td class="align-left">
+  The rows contain the responses from the participants to the different questions.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablemargin">
+<table class="silvatable grid" width="100%" cellspacing="0" cellpadding="3">
+<col width="16%" class="align-center" />
+<col width="16%" class="align-center" />
+<col width="16%" class="align-center" />
+<col width="16%" class="align-center" />
+<col width="16%" class="align-center" />
+<col width="16%" class="align-center" />
+<tbody>
+<tr class="odd">
+<td class="align-center">
+  Participant<br />
+</td>
+<td class="align-center">
+  Question 1<br />
+</td>
+<td class="align-center">
+  Question 2<br />
+</td>
+<td class="align-center">
+  Question 3<br />
+</td>
+<td class="align-center">
+  Question 4<br />
+</td>
+<td class="align-center">
+  etc.<br />
+</td>
+</tr>
+<tr class="even">
+<td class="align-center">
+  1
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+</tr>
+<tr class="odd">
+<td class="align-center">
+  2
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+</tr>
+<tr class="even">
+<td class="align-center">
+  3
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+</tr>
+<tr class="odd">
+<td class="align-center">
+  4
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+<td class="align-center">
+  &nbsp;
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="p"><br />Please make sure that the column headings always refer to the corresponding questionnaire item (i.e. to the corresponding question). We suggest that you  assign a short name to each question and record it in a separate document. <strong><br /></strong></p>
+
+
+                          
+
+<p class="p"><br /><strong>Coding of responses</strong><br />Each response option is coded in order to be entered into the data sheet and to be analysed. This means that a number is assigned to each response option (e.g. 1 for “disagree”, 2 “somewhat disagree”, 3 for “undecided”, 4 for “somewhat agree” and 5 for “agree”; or 1 for “male”, 2 for “female”, 1 for “yes”, 0 for “no”, etc.). The meaning of the codes should also be documented precisely!</p>
+
+
+                          
+<p>IMPORTANT: Several questions about one topic (e.g. 4 questions about the usability aspect of “controllability”) constitute what is known as a scale. In the analysis, each question is not usually considered separately but a <a class="tooltiplink"
+  onMouseOver="showToolTip('mean value')"
+  onMouseOut="hideToolTip()">mean value</a> is calculated for questions belonging to a scale. Here, it is important to invert the coding for the negatively formulated questions.</p>
+
+<script src="../../../tooltip.js" language="JavaScript" type="text/javascript"></script>
+<style>
+div.public .tooltiplink {
+  text-decoration: none;color: #1111FF;
+}
+.tooltip {
+  position: absolute;
+  width: 300px; /* Fixed width for IE */
+  display: none;
+  background-color: #FFFFCC;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 2px;
+}
+div.tooltip p.tooltipcontent {
+  width: 100%;
+  margin: 0px;
+}
+</style>
+<div class="tooltip" id="mean value">
+<p class="tooltipcontent"><strong>mean value</strong></p>
+<p class="tooltipcontent">“The long-term average of occurrences; also called the expected value” (From: Statistical Glossary, Mean Value)</p>
+</div>
+<div class="tablemargin">
+<table class="silvatable plain" width="100%" cellspacing="0" cellpadding="3">
+<col width="6%" class="align-left" />
+<col width="93%" class="align-left" />
+<tbody>
+<tr class="odd">
+<td class="align-left">
+  Example:<br />
+</td>
+<td class="align-left">
+  Positively formulated item: “The software offers the option of interrupting thetask at any time and continuing later without losing data.”<br />Coding: 1 for “disagree” – 5 “agree”.<br /><br />Negatively formulated item: “The software enforces an unnecessarily strict way of complying with the task steps.“ <br />Coding: 5 for &quot;disagree&quot; – 1 for &quot;agree&quot;.<br />
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="p"><strong><br /></strong></p>
+
+
+                          
+
+<p class="p"><strong></strong><strong>Missing Values</strong> </p>
+
+
+                          
+
+<p class="p"> For an item which is not checked, the value of “0” should not be entered, as this would represent a negative bias for mean value calculations. Simply leave the cell blank.</p>
+
+
+                          
+
+<p class="p"><br /><strong></strong></p>
+
+
+                          
+
+<p class="p"><strong>[1] [<a href="../document_data_2_EN/index.html" target="_self">2</a>] </strong><br /> </p>
+
+
+                          
+
+           
+  
+
+  <!-- END section main content -->
+</div>
+
+
+
+
+      
+    
+    <!-- END content -->
+    <!-- START footer -->
+    <!-- ############################################################################ --><!-- START footer -->
+    <div class="clearboth">
+      &#160;
+    </div>
+    <!-- NTE no netscape note-->
+	
+    <!-- START footer -->
+    <div class="footerblock">
+      <!-- NTE no unitlogo -->
+        <div class="footerline">
+          <div class="footertext">
+            
+            
+              
+        &copy; 2009 ETH Zürich und Université de Fribourg (CH) <!-- NTE no imprint FR EN--><!-- NTE footer no disclaimer FR EN--><!-- NTE footer no date FR EN-->
+    
+          </div>
+          
+  
+  
+    <!-- NTE footer no powered FR EN-->
+  
+
+    </div>
+  </div><!-- END footer -->
+    <!-- START page top icon -->
+    <div id="pagetop">
+      
+         
+         <span>
+           <a href="#top"><img border="0"
+    src="../../../icons_site/top_c010.gif"
+    alt="top" title="top" /></a>
+         </span>
+      
+    </div>
+    <!-- END page top icon -->
+  
+    
+
+
+    
+  </div></body>
+
+<!-- Mirrored from nte.unifr.ch/misc/evalguide/program_evaluation/analyse_data_prog/document_data_EN/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2016 23:22:22 GMT -->
+</html>

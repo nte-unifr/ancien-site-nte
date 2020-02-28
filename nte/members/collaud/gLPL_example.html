@@ -1,0 +1,80 @@
+<HTML>
+
+<!-- Mirrored from nte.unifr.ch/nte/members/collaud/gLPL_example.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2016 22:18:15 GMT -->
+<HEAD>
+  <TITLE>An example of a gLPL model</title><meta name="robots" content="noindex">
+<style>body {background-color : White;	color:black;	background-image:url(/ancien-site-nte/squelettes/nte_default/archive.png);}</style></HEAD>
+<body><div style="background: #fd0; width:100%; text-align:center; font-size: 200%; position: fixed; z-index: 99;">Le site NTE actuel est accessible à l'adresse <a href="http://www.unifr.ch/nte">http://www.unifr.ch/nte</a></div>
+<CENTER>
+  <H2>
+    An example of a gLPS model
+  </H2>
+</CENTER>
+<P>
+  <HR>
+<H3>
+  Terms
+</H3>
+<P>
+A Factory produces three types of robots called 'John', Kevin' and 'Jane'.
+Three production steps must be carried out:<BR>
+<UL>
+  <LI>
+    Production of the components takes 5 hours for each robot John and Kevin,
+    and 4 hours for Jane, with a total capacity of 350 hours per week;<BR>
+  <LI>
+    Mounting (capacity <= 480) takes 4 hours for John and 5 hours for Kevin;<BR>
+  <LI>
+    Testing (capacity
+    <= 300) takes 6 hours for John, 2 for Kevin and 4 for Jane.<BR>
+</UL>
+<P>
+Profit is $300 for John, $200 for Kevin and $100 for Jane. Of type John robots,
+20 have already been ordered. Of type Kevin 15, and of type Jane 10. How
+many robots of each type must be produced in order to maximize the sales
+profit?
+<H3>
+  <BR>
+  gLPS model
+</H3>
+<P>
+<IMG SRC="Images/gLPSFig1.gif">
+<H3>
+  LPL notation
+</H3>
+<FORM >
+  <TEXTAREA NAME="entry" ROWS=9 COLS=50>MODEL robot "a small lp model"; 
+SET 
+ i := /John Kevin Jane/; 
+ j := /comp mount test/;
+
+PARAMETER   
+  ordered{i} := / John 20  Kevin 15  Jane 10 / ; 
+  capacity{j} := / comp 350  mount 480  test 300 / ; 
+  price{i} := / John 300  Kevin 200  Jane 100 / ; 
+  hours{i, j} := / John comp 5     
+                  John mount 4       
+                  John test 6        
+                  Kevin comp 5       
+                  Kevin test 2       
+                  Jane comp 4       
+                  Jane mount 5      
+                  Jane test 4 / ;
+VARIABLE  
+  Robots{i};
+
+CONSTRAINT 
+ p_steps{j}: SUM{i} hours * Robots[i] <= capacity; B{i}: Robots[i] >= ordered;
+ MAXIMIZE profit: SUM{i} price * Robots[i] ;
+WRITE Robots, profit; 
+END
+</TEXTAREA>
+  <P>
+  <P>
+  You can copy and paste it in the <A HREF="LPL_Model.html">on-line solutions
+  system</A> to get the optimal solution. 
+    <HR>
+</FORM>
+</BODY>
+<!-- Mirrored from nte.unifr.ch/nte/members/collaud/gLPL_example.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2016 22:18:15 GMT -->
+</HTML>

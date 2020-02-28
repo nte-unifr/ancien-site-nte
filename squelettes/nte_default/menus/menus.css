@@ -1,0 +1,73 @@
+#nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#nav a {
+	display: block;
+}
+#nav li {
+	float: left;
+}
+#nav li ul {
+	text-transform:none;
+	position: absolute;
+	width: 16em;
+	left: -999em;
+	border-style:solid;
+	border-width:5px;
+}
+#nav li ul li {
+	width: 100%;
+	border-bottom: 1px solid Scrollbar;
+}
+#nav li ul a {
+	width: 100%;
+/*menus deroulants transparents< a voir si on garde
+	background: transparent;
+	background-color: #006699;
+	opacity: 1;
+*/
+/*	filter:alpha(opacity=100);  IE's opacity*/
+}
+#nav li ul li ul {
+	width: 100%;
+	left: -999em;
+}
+#nav li:hover ul {
+	left: auto;
+}
+#nav li:hover ul, #nav li.sfhover ul {
+	left: auto;
+}
+#nav li ul ul {
+	margin: -14% 0% 0% 90%;
+	border-style:solid;
+	border-width:5px;
+	/*	font-stretch: condensed;
+*/
+}
+#nav, #nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none; 
+	line-height: 1;
+    z-index:999;
+}
+#nav li:hover ul ul, #nav li.sfhover ul ul {
+	left: -999em;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul {
+	left: auto;
+}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left: -999em;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {
+	left: auto;
+}

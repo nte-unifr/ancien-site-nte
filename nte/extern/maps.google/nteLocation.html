@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from nte.unifr.ch/nte/extern/maps.google/nteLocation.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2016 19:50:34 GMT -->
+<head>
+    <script src="http://maps.google.com/maps?file=api&amp;v=1&amp;key=ABQIAAAAMtUJjefM9XcPMS22wG-22BRzBgVXmB3UJzynsPNFEQaD6JyKlRRxSW196XJvPt_HYfTpCAu0QzPRdA" type="text/javascript"></script>
+  <style>body {background-color : White;	color:black;	background-image:url(/ancien-site-nte/squelettes/nte_default/archive.png);}</style></HEAD>
+  <body><div style="background: #fd0; width:100%; text-align:center; font-size: 200%; position: fixed; z-index: 99;">Le site NTE actuel est accessible à l'adresse <a href="http://www.unifr.ch/nte">http://www.unifr.ch/nte</a></div>
+    <div id="map" style="width: 500px; height: 300px"></div>
+<script type="text/javascript">
+    //<![CDATA[
+    
+    var map = new GMap(document.getElementById("map"));
+    map.addControl(new GSmallMapControl());
+    map.addControl(new GMapTypeControl());
+    map.centerAndZoom(new GPoint(7.15916341725, 46.7939201968), 3);
+    
+// Create the marker and corresponding information window
+function createInfoMarker(point, address) {
+   var marker = new GMarker(point);
+   GEvent.addListener(marker, "click",
+      function() {
+         marker.openInfoWindowHtml(address);
+      }
+   );
+  return marker;
+}
+
+// Centre NTE
+var point = new GPoint(7.15916341725, 46.7939201968);
+address = "Centre NTE<br />bd P�rolles 90<br />1700 Fribourg";
+var marker = createInfoMarker(point, address);
+map.addOverlay(marker);
+    </script>
+  </body>
+
+<!-- Mirrored from nte.unifr.ch/nte/extern/maps.google/nteLocation.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2016 19:50:34 GMT -->
+</html>
